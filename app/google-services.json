@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "931634931760",
+    "project_id": "quizy-c19e6",
+    "storage_bucket": "quizy-c19e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931634931760:android:31973795f4ce05409f25f5",
+        "android_client_info": {
+          "package_name": "com.bangkit23.quizy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931634931760-2v01q6cf01dualddh5us4so29cnu6o96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bangkit23.quizy",
+            "certificate_hash": "d1fcf2fe18e7fecf3199af96b26a61dcaef4a908"
+          }
+        },
+        {
+          "client_id": "931634931760-kok5o8q1ssmb24a9h5qvdvl3d8bhg72l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMXRFrj6p-KOI1B3FzvLiZOaoH5_jSq_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931634931760-8a8gsfassl6ftguvhfoe5f4u9sm2jfjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

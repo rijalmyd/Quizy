@@ -1,0 +1,7 @@
+package com.bangkit23.quizy.util
+
+sealed class Result<out A> {
+    data class Loading<out T>(val data: T? = null) : Result<T>()
+    data class Success<out T>(val data: T) : Result<T>()
+    data class Error(val message: String? = null) : Result<Nothing>()
+}
