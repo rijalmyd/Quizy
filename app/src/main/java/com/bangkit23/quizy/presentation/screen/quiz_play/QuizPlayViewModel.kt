@@ -85,15 +85,13 @@ class QuizPlayViewModel @Inject constructor(
                         isLoading = false,
                     )
                 }
-
                 is Result.Loading -> _state.update {
                     it.copy(
                         isLoading = true
                     )
                 }
-
                 is Result.Success -> _state.update {
-                    val quiz = result.data.shuffled()
+                    val quiz = result.data.shuffled().take(10)
                     allQuiz.addAll(quiz)
                     val quizItem = allQuiz[it.position - 1]
                     it.copy(
